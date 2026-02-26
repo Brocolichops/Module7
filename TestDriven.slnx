@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TestDriven.vcxproj" Id="1c2c41a3-f873-421b-80c2-c9ee5f69f16b" />
+  <Project Path="UnitTest/UnitTest.vcxproj" />
+</Solution>
