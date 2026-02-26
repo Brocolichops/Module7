@@ -7,13 +7,22 @@ const char* guessAnimal(int nLegs, bool bCanFly, bool blivesInWater) {
     if (blivesInWater) {
         if (nLegs == 0)
             return STR_FISH;
+        if (nLegs == 4)
+            return STR_FROG;
     }
-
-	//more conditional statements to be added for other animals
-
-    return STR_UNKNOWN;
+    else if (bCanFly) {
+        if (nLegs == 2)
+            return STR_BIRD;
+        else if (nLegs > 4) {
+            return STR_INSECT;
+        }
+    }
+    else {
+        if (nLegs == 4)
+            return STR_DOG;
+    }
+        return STR_UNKNOWN;
 }
-
 
 
 int main() {

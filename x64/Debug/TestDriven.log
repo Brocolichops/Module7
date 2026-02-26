@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(548,5): warning MSB8028: The intermediate directory (C:\Users\anato\source\repos\Module7\x64\Debug\) contains files shared from another project (TestUnit.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  testdriven.c
+  TestDriven.vcxproj -> C:\Users\anato\source\repos\Module7\x64\Debug\FunUnit.lib
